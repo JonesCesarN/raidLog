@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <textarea style="height: 100px;" id="texto" rows=4></textarea>
+        <nav>
+            Ataques minimo: <input type="number" name="" id="minAtq">
+            % Off Ataque: <input type="number" name="" id="minOff">
+            <button onclick="Carregar()">Carregar</button>
+        </nav>
+    </head>
+
+
+
+    <hr>
+    <table style="margin:0 auto" id="resultado">
+        <th>Player</th>
+        <th>ID</th>
+        <th>Ataques</th>
+        <th>Dano Total</th>
+        <th>Dano Off</th>
+        <th>% Off</th>
+    </table>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    <script src="db.js"></script>
+    <!-- <script src="db.min.js"></script> -->
+
+
+</body>
+
+</html>
